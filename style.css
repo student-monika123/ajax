@@ -1,0 +1,125 @@
+
+/* .img{
+    max-height: 481px;max-width: 100%;
+} */
+.a{
+    color: white;
+position: absolute;
+bottom: 230px;
+left: 32px;
+background-color: #352e2e;
+padding: 7px 101px;
+
+}  
+body {
+      background-image: url('https://www.usmagazine.com/wp-content/uploads/2019/07/purple-Dress.jpg');
+      background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 20% 70%;
+    }
+
+
+.size-options {
+    display: flex;
+  }
+  
+  .size-options label {
+    margin-right: 10px;
+  }
+  
+  .size-options input[type="radio"] {
+    display: none;
+  }
+  
+  .size-options input[type="radio"] + span {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid grey;
+    cursor: pointer;
+  }
+  
+  .size-options input[type="radio"]:checked + span {
+    background-color: #e0e0e0;
+  }
+.c{
+    border-radius: 50%;
+    padding: 6px 6px;
+}
+
+.color-options {
+    display: flex;
+  }
+  
+  .color-options label {
+    margin-right: 10px;
+  }
+  
+  .color-options input[type="radio"] {
+    display: none;
+  }
+  
+  .color-option {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: solid 2px grey;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .color-options input[type="radio"]:checked + .color-option {
+    border: 2px solid #333;
+  }
+
+
+  .cart{
+    background-color: transparent;
+    color: black;
+  }
+
+  .image-radio {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .image-radio input[type="radio"] {
+    display: none; 
+  }
+  
+  
+    .image-radio img {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        border-radius: 120px;
+    }
+  
+  
+  .image-radio input[type="radio"]:checked + img {
+    border-color: #333;
+  }
+
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -50px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
